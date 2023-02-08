@@ -4,7 +4,7 @@ services:
   dev-php-fpm-8:
     build:
       context: .
-      dockerfile: Dockerfile.php-fpm-8.1.conf
+      dockerfile: Dockerfile.php-fpm-8.conf
     container_name: dev-php-fpm-8-demo
 
   dev-php-fpm-7:
