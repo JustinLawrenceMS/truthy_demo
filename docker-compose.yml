@@ -1,0 +1,14 @@
+version: "3.5"
+
+services:
+  dev-php-fpm-8:
+    build:
+      context: .
+      dockerfile: Dockerfile.php-fpm-8.1.conf
+    container_name: dev-php-fpm-8-demo
+
+  dev-php-fpm-7:
+    build:
+      context: .
+      dockerfile: Dockerfile.php-fpm-7.3.conf
+    container_name: dev-php-fpm-7-demo
