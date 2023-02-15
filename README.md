@@ -16,4 +16,4 @@ Access the container terminal with docker, and then cd into the truthy directory
 
 ```php truth.php```
 
-If a variable is not set, it evaluates as false in php7 and throws an error in php8.  Apart from that, I don't see a difference. This could because of a refinement of earlier versions of php8, when truthiness checks were a frequent breaking change.
+If a variable is not set, it evaluates as false in php7 and throws a warning in php8.  Apart from that, I don't see a difference. This could because of a refinement of earlier versions of php8, when truthiness checks were a frequent breaking change.
