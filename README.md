@@ -6,8 +6,6 @@ To install, do this:
 
 Fall into your truthy_demo directory and do this:
 
-```docker compose build```
-
 ```docker compose up```
 
 Access the container terminal with docker, and then cd into the truthy directory:
